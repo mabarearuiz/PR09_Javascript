@@ -1,0 +1,30 @@
+<!--ejercicios Intermedios-Ejercicio 10: Sustituir las cadenas “España”, “Portugal”, etcétera, por una imagen con la silueta de cada país 
+    y que ofrezca la misma funcionalidad del ejercicio anterior mostrando la capital del país por donde pase el ratón. -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 9</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css">
+  </head>
+
+  <body>
+    <h1>Ejercicio 9</h1>
+    <p>Dibujar la silueta de paises y mostrar su capital al pasar sobre ellos</p>
+
+    <h3>Pasa el ratón por encima del país para ver su capital</h3>
+    <div class="mapa"><img  src="./Siluetas/espana.png" onmouseenter="evento('España', 'Madrid')"/></div>
+    <div class="mapa"><img src="./Siluetas/Portugal.png" onmouseenter="evento('Portugal', 'Lisboa')"/></div>
+    <div class="mapa"><img src="./Siluetas/francia.png" onmouseenter="evento('Francia', 'París')"/></div>
+    <div class="mapa"><img src="./Siluetas/italia.png" onmouseenter="evento('Italia', 'Roma')"/></div>
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="./ejercicio9.js"
+    ></script>
+  </body>
+</html>
